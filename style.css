@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #222;
+}
+
+.card{
+   max-width: 440px;
+   /* width: 26vw; */
+   margin: 100px auto 0;
+   background: linear-gradient(180deg, #00feba,#5b548a);
+   border-radius: 6%;
+   display: flex;
+   flex-direction: column;
+   min-height: 75vh;
+   
+}
+
+#text-input{
+    border-radius: 20px;
+    outline: none;
+    padding: 10px 36px;
+    border: 0;
+    outline: 0;
+    font-size: medium;
+    text-align: center;
+
+}
+
+.search-bar{
+    width: 100%;
+    padding: 50px 60px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    
+}
+
+.search-bar button{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: white;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+.search-bar button img{
+    width: 20px;
+    scale: 1;
+    transition: all ease-in;
+}
+
+.search-bar button img:hover{
+    scale: 1.2;
+}
+
+.weather{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    font-size: xx-large;
+    padding: 50px 0;
+}
+
+
+.weather-icon{
+    width: 130px;
+}
+
+.extra-details{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.humidity img{
+    width: 60px;
+}
+.wind-speed img{
+    width: 60px;
+}
+
+.humidity{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 15px;
+    
+}
+
+.humidity-text{
+    font-size: larger;
+}
+
+.wind-text{
+    font-size: larger;
+}
+
+.wind-speed{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 15px;
+}
+/* .humidity-text{
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    left: 145px;
+} */
+
+
